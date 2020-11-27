@@ -64,8 +64,10 @@ function input(event) {
             default:
                 gamerInput = new GamerInput("None"); //No Input
         }
+
         // my keypress code for game
         //this will do right and stop for button mash to play the game
+
         //if (event.type === "keyPress") {
         //    switch (event.keyCode) {
            // case 39: // Right Arrow
@@ -73,6 +75,7 @@ function input(event) {
            //     break; //Right key
          //   }
        // }
+       
     }
      else {
         gamerInput = new GamerInput("None"); //No Input
